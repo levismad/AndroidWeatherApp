@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01/10/2016"
+        android:paddingLeft="16dp"
+        android:paddingTop="5dp"
+        android:id="@+id/w_date"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp">
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:id="@+id/w_icon"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:textSize="32dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/w_temp"
+        android:layout_toRightOf="@id/w_icon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ºC"
+        android:textSize="14dp"
+        android:paddingTop="10dp"
+        android:textColor="#fff"
+        android:layout_toRightOf="@id/w_temp"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Nuvens:"
+                android:id="@+id/w_rain_t"
+                android:paddingRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="asd"
+                android:id="@+id/w_rain"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Umidade:"
+                android:id="@+id/w_umidity_t"
+                android:paddingRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="asd"
+                android:id="@+id/w_umidity"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:textSize="32dp"
+        android:paddingTop="10dp"
+        android:textColor="#fff"
+        android:id="@+id/w_temp_min"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ºC"
+        android:textSize="14dp"
+        android:paddingTop="10dp"
+        android:textColor="#fff"
+        android:layout_toRightOf="@id/w_temp_min"/>
+</RelativeLayout>
+</LinearLayout>

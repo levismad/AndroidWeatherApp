@@ -1,0 +1,13 @@
+https://ssl.gstatic.com/onebox/weather/48/snow.png
+https://ssl.gstatic.com/onebox/weather/48/snow_light.png
+https://ssl.gstatic.com/onebox/weather/48/sunny_s_cloudy.png
+https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png
+https://ssl.gstatic.com/onebox/weather/48/sunny.png
+https://ssl.gstatic.com/onebox/weather/48/rain_light.png
+https://ssl.gstatic.com/onebox/weather/48/rain.png
+https://ssl.gstatic.com/onebox/weather/48/thunderstorms.png
+https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png
+https://ssl.gstatic.com/onebox/weather/48/snow_s_rain.png
+https://ssl.gstatic.com/onebox/weather/64/cloudy.png
+https://ssl.gstatic.com/onebox/weather/48/cloudy_s_rain.png
+https://ssl.gstatic.com/onebox/weather/48/cloudy_s_sunny.png
